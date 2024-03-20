@@ -16,6 +16,10 @@
 		6171E0F72BAB732D005121B0 /* KeplerStarUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6171E0F62BAB732D005121B0 /* KeplerStarUITestsLaunchTests.swift */; };
 		6171E1042BAB738D005121B0 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 6171E1032BAB738D005121B0 /* LICENSE */; };
 		6171E1062BAB73AB005121B0 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 6171E1052BAB73AB005121B0 /* .gitignore */; };
+		6171E10A2BAB83EA005121B0 /* StarSign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6171E1092BAB83EA005121B0 /* StarSign.swift */; };
+		6171E10B2BAB83EA005121B0 /* StarSign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6171E1092BAB83EA005121B0 /* StarSign.swift */; };
+		6171E10D2BAB85CC005121B0 /* Planet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6171E10C2BAB85CC005121B0 /* Planet.swift */; };
+		6171E10E2BAB85CC005121B0 /* Planet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6171E10C2BAB85CC005121B0 /* Planet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +54,8 @@
 		6171E1052BAB73AB005121B0 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		6171E1072BAB7E2B005121B0 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		6171E1082BAB8036005121B0 /* CONTRIBUTING.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CONTRIBUTING.md; sourceTree = "<group>"; };
+		6171E1092BAB83EA005121B0 /* StarSign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarSign.swift; sourceTree = "<group>"; };
+		6171E10C2BAB85CC005121B0 /* Planet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Planet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +114,8 @@
 				6171E0DB2BAB732C005121B0 /* ContentView.swift */,
 				6171E0DD2BAB732D005121B0 /* Assets.xcassets */,
 				6171E0DF2BAB732D005121B0 /* Preview Content */,
+				6171E1092BAB83EA005121B0 /* StarSign.swift */,
+				6171E10C2BAB85CC005121B0 /* Planet.swift */,
 			);
 			path = KeplerStar;
 			sourceTree = "<group>";
@@ -269,8 +277,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6171E10A2BAB83EA005121B0 /* StarSign.swift in Sources */,
 				6171E0DC2BAB732C005121B0 /* ContentView.swift in Sources */,
 				6171E0DA2BAB732C005121B0 /* KeplerStarApp.swift in Sources */,
+				6171E10D2BAB85CC005121B0 /* Planet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +288,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6171E10E2BAB85CC005121B0 /* Planet.swift in Sources */,
+				6171E10B2BAB83EA005121B0 /* StarSign.swift in Sources */,
 				6171E0EB2BAB732D005121B0 /* KeplerStarTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
