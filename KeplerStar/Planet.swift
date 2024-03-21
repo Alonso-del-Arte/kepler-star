@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum Planet : Character {
+enum Planet : Character, CaseIterable {
     
     // TODO: Write test for characters
     case sun = "?"

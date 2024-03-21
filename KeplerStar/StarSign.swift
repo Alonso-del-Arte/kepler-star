@@ -8,7 +8,7 @@
 import Foundation
 import SwiftUI
 
-enum StarSign : Character {
+enum StarSign : Character, CaseIterable {
     
     // TODO: Write test for characters
     case aries = "?"
