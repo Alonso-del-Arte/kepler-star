@@ -9,25 +9,24 @@ import Foundation
 
 enum Planet : Character, CaseIterable {
     
-    // TODO: Write test for characters
-    case sun = "?"
+    case sun = "\u{2609}"
     
-    case moon = "X"
+    case moon = "\u{263e}"
     
-    case mercury = "Y"
+    case mercury = "\u{263f}"
     
-    case venus = "Z"
+    case venus = "\u{2640}"
     
-    case mars = "a"
+    case mars = "\u{2642}"
     
-    case jupiter = "b"
+    case jupiter = "\u{2643}"
     
-    case saturn = "c"
+    case saturn = "\u{2644}"
     
-    case uranus = "d"
+    case uranus = "\u{2645}"
     
-    case neptune = "e"
+    case neptune = "\u{2646}"
     
-    case pluto = "f"
+    case pluto = "\u{2647}"
     
 }
