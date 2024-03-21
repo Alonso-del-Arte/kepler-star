@@ -7,26 +7,27 @@
 
 import Foundation
 
-enum Planet {
+enum Planet : Character {
     
-    case sun
+    // TODO: Write test for characters
+    case sun = "?"
     
-    case moon
+    case moon = "X"
     
-    case mercury
+    case mercury = "Y"
     
-    case venus
+    case venus = "Z"
     
-    case mars
+    case mars = "a"
     
-    case jupiter
+    case jupiter = "b"
     
-    case saturn
+    case saturn = "c"
     
-    case uranus
+    case uranus = "d"
     
-    case neptune
+    case neptune = "e"
     
-    case pluto
+    case pluto = "f"
     
 }

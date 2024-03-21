@@ -8,30 +8,31 @@
 import Foundation
 import SwiftUI
 
-enum StarSign {
+enum StarSign : Character {
     
-    case aries
+    // TODO: Write test for characters
+    case aries = "?"
     
-    case taurus
+    case taurus = "X"
     
-    case gemini
+    case gemini = "Y"
     
-    case cancer
+    case cancer = "Z"
     
-    case leo
+    case leo = "a"
     
-    case virgo
+    case virgo = "b"
     
-    case libra
+    case libra = "c"
     
-    case scorpio
+    case scorpio = "d"
     
-    case saggitarius
+    case saggitarius = "e"
     
-    case capricorn
+    case capricorn = "f"
     
-    case aquarius
+    case aquarius = "g"
     
-    case pisces
-    
+    case pisces = "h"
+        
 }
