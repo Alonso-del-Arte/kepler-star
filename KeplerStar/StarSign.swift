@@ -10,29 +10,28 @@ import SwiftUI
 
 enum StarSign : Character, CaseIterable {
     
-    // TODO: Write test for characters
-    case aries = "?"
+    case aries = "\u{2648}"
     
-    case taurus = "X"
+    case taurus = "\u{2649}"
     
-    case gemini = "Y"
+    case gemini = "\u{264a}"
     
-    case cancer = "Z"
+    case cancer = "\u{264b}"
     
-    case leo = "a"
+    case leo = "\u{264c}"
     
-    case virgo = "b"
+    case virgo = "\u{264d}"
     
-    case libra = "c"
+    case libra = "\u{264e}"
     
-    case scorpio = "d"
+    case scorpio = "\u{264f}"
     
-    case saggitarius = "e"
+    case saggitarius = "\u{2650}"
     
-    case capricorn = "f"
+    case capricorn = "\u{2651}"
     
-    case aquarius = "g"
+    case aquarius = "\u{2652}"
     
-    case pisces = "h"
+    case pisces = "\u{2653}"
         
 }
