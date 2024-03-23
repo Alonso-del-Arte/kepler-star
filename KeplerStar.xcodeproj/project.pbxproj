@@ -42,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		611534EB2BAE5EE6001BDD23 /* Terminology.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Terminology.md; sourceTree = "<group>"; };
 		6171E0D62BAB732C005121B0 /* KeplerStar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeplerStar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6171E0D92BAB732C005121B0 /* KeplerStarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeplerStarApp.swift; sourceTree = "<group>"; };
 		6171E0DB2BAB732C005121B0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -90,6 +91,7 @@
 		6171E0CD2BAB732C005121B0 = {
 			isa = PBXGroup;
 			children = (
+				611534EB2BAE5EE6001BDD23 /* Terminology.md */,
 				6171E1082BAB8036005121B0 /* CONTRIBUTING.md */,
 				6171E1072BAB7E2B005121B0 /* README.md */,
 				6171E1052BAB73AB005121B0 /* .gitignore */,
