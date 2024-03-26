@@ -8,7 +8,7 @@
 import Foundation
 import SwiftUI
 
-enum StarSign : Character, CaseIterable {
+enum StarSign : Character, CaseIterable, CustomStringConvertible {
     
     case aries = "\u{2648}"
     
@@ -33,5 +33,9 @@ enum StarSign : Character, CaseIterable {
     case aquarius = "\u{2652}"
     
     case pisces = "\u{2653}"
+    
+    var description: String {
+        "SORRY, NOT IMPLEMENTED YET"
+    }
         
 }
