@@ -35,7 +35,7 @@ enum StarSign : Character, CaseIterable {
     case pisces = "\u{2653}"
     
     func description() -> String {
-        "SORRY, NOT IMPLEMENTED YET"
+        "\(self)".capitalized
     }
         
 }
