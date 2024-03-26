@@ -29,4 +29,13 @@ final class StarSignTests: XCTestCase {
             XCTAssertEqual(expected, actual)
         }
     }
+    
+    func testDescription() {
+        for sign in StarSign.allCases {
+            let expected = "\(sign)".capitalized
+            let actual = sign.description()
+            XCTAssertEqual(expected, actual)
+        }
+    }
+    
 }
