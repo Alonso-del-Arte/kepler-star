@@ -27,5 +27,13 @@ final class PlanetTests: XCTestCase {
             XCTAssertEqual(expected, actual)
         }
     }
+    
+    func testDescription() {
+        for planet in Planet.allCases {
+            let expected = "\(planet)".capitalized
+            let actual = planet.description()
+            XCTAssertEqual(expected, actual)
+        }
+    }
 
 }
