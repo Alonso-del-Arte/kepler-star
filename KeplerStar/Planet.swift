@@ -30,7 +30,7 @@ enum Planet : Character, CaseIterable {
     case pluto = "\u{2647}"
     
     func description() -> String {
-        "SORRY, NOT IMPLEMENTED YET"
+        "\(self)".capitalized
     }
     
 }
