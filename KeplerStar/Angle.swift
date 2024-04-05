@@ -9,8 +9,10 @@ import Foundation
 
 struct Angle {
     
+    private let deg: Int16
+    
     func getDegrees() -> Int16 {
-        -1
+        self.deg
     }
     
     func getMinutes() -> UInt8 {
@@ -22,7 +24,7 @@ struct Angle {
     }
     
     init(degrees: Int16, minutes: UInt8 = 0, seconds: UInt8 = 0) {
-        //
+        self.deg = degrees
     }
     
 }
