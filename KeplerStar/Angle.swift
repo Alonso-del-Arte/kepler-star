@@ -13,6 +13,8 @@ struct Angle {
     
     private let min: UInt8
     
+    private let sec: UInt8
+    
     func getDegrees() -> Int16 {
         self.deg
     }
@@ -22,12 +24,13 @@ struct Angle {
     }
     
     func getSeconds() -> UInt8 {
-        61
+        self.sec
     }
     
     init(degrees: Int16, minutes: UInt8 = 0, seconds: UInt8 = 0) {
         self.deg = degrees
         self.min = minutes
+        self.sec = seconds
     }
     
 }
