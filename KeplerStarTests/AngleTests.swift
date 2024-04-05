@@ -19,7 +19,7 @@ final class AngleTests: XCTestCase {
     func testGetMinutes() {
         let deg = Int16.random(in: 0 ... 359)
         let expected = UInt8.random(in: 0 ... 59)
-        let angle = Angle(degrees: deg)
+        let angle = Angle(degrees: deg, minutes: expected)
         let actual = angle.getMinutes()
         XCTAssertEqual(expected, actual)
     }
