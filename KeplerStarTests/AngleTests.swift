@@ -33,7 +33,16 @@ final class AngleTests: XCTestCase {
         XCTAssertEqual(expected, actual)
     }
     
-    // TODO: Make Angle impl CustomStringConvertible
+    func testDescription() {
+        let deg = Int16.random(in: 0 ... 359)
+        let min = UInt8.random(in: 1 ... 59)
+        let sec = UInt8.random(in: 1 ... 59)
+        let angle = Angle(degrees: deg, minutes: min, seconds: sec)
+        let expected = "\(deg)\u{00B0} \(min)' \(sec)\""
+        let actual = angle.description
+        XCTAssertEqual(expected, actual)
+    }
+    
     // TODO: Write tests requiring description( ) to omit 0 minutes, 0 seconds
     
     func testConstructorTurnsNegativeDegreesToRange0To359() {
