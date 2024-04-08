@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Angle {
+struct Angle : CustomStringConvertible {
     
     private let deg: Int16
     
@@ -26,6 +26,8 @@ struct Angle {
     func getSeconds() -> UInt8 {
         self.sec
     }
+    
+    var description: String = "SORRY, NOT IMPLEMENTED YET"
     
     init(degrees: Int16, minutes: UInt8 = 0, seconds: UInt8 = 0) {
         let adjust: Int16 = if degrees < 0 {
