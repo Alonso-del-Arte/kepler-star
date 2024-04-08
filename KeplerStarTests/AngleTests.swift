@@ -39,7 +39,7 @@ final class AngleTests: XCTestCase {
         let sec = UInt8.random(in: 1 ... 59)
         let angle = Angle(degrees: deg, minutes: min, seconds: sec)
         let expected = "\(deg)\u{00B0} \(min)' \(sec)\""
-        let actual = angle.description
+        let actual = angle.description()
         XCTAssertEqual(expected, actual)
     }
     
