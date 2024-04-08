@@ -30,6 +30,8 @@ struct Angle {
     init(degrees: Int16, minutes: UInt8 = 0, seconds: UInt8 = 0) {
         let adjust: Int16 = if degrees < 0 {
             360
+        } else if degrees > 359 {
+            -360
         } else {
             0
         }
