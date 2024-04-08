@@ -28,7 +28,7 @@ struct Angle {
     }
     
     func description() -> String {
-        "SORRY, NOT IMPLEMENTED YET"
+        "\(self.deg)\u{00B0} \(self.min)' \(self.sec)\""
     }
     
     init(degrees: Int16, minutes: UInt8 = 0, seconds: UInt8 = 0) {
