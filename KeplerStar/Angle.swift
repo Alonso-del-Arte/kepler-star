@@ -28,10 +28,14 @@ struct Angle {
     }
     
     func description() -> String {
-        if self.sec == 0 {
-            return "\(self.deg)\u{00B0} \(self.min)'"
+        var intermediate = "\(self.deg)\u{00B0}"
+        if self.min > 0 {
+            intermediate += " \(self.min)'"
+            if self.sec > 0 {
+                intermediate += " \(self.sec)\""
+            }
         }
-        return "\(self.deg)\u{00B0} \(self.min)' \(self.sec)\""
+        return intermediate
     }
     
     init(degrees: Int16, minutes: UInt8 = 0, seconds: UInt8 = 0) {
