@@ -34,6 +34,11 @@ enum StarSign : Character, CaseIterable {
     
     case pisces = "\u{2653}"
     
+    // TODO: Write tests for this
+    func minimumDegree() -> Angle {
+        Angle(degrees: 28)
+    }
+    
     func description() -> String {
         "\(self)".capitalized
     }
