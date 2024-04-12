@@ -29,7 +29,7 @@ struct Angle {
     
     func description() -> String {
         var intermediate = "\(self.deg)\u{00B0}"
-        if self.min > 0 {
+        if self.min > 0 || (self.min == 0 && self.sec > 0) {
             intermediate += " \(self.min)'"
             if self.sec > 0 {
                 intermediate += " \(self.sec)\""
