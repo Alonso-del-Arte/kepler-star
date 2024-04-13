@@ -1,6 +1,8 @@
 #  Bibliography
 
-* PLACEHOLDER
+* Aleister Crowley, *The Complete Astrological Writings*, edited by John Symonds 
+and Kenneth Grant. Dallas, Texas: Duckworth (1979). Second impression by Gerald 
+Duckworth &amp; Co. Limited in London (1988).
 
 ## Religious books
 
