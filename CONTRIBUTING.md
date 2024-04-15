@@ -1,6 +1,6 @@
 This project *might* be open to Hacktoberfest 2024.
 
-#  Guidelines for Hacktoberfest 2024 contributors
+# Guidelines for Hacktoberfest 2024 contributors
 
 Main one is you have to have Xcode, I suppose.
 
