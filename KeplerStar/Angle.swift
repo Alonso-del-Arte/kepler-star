@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Angle : AdditiveArithmetic {
+struct Angle : Equatable {
 
     private let deg: Int16
     
@@ -28,6 +28,11 @@ struct Angle : AdditiveArithmetic {
     
     func getSeconds() -> UInt8 {
         self.sec
+    }
+    
+    // TODO: Write tests for this
+    static func == (lhs: Angle, rhs: Angle) -> Bool {
+        false
     }
     
     // TODO: Write tests for this
