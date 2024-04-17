@@ -7,13 +7,16 @@
 
 import Foundation
 
-struct Angle {
-    
+struct Angle : AdditiveArithmetic {
+
     private let deg: Int16
     
     private let min: UInt8
     
     private let sec: UInt8
+    
+    // TODO: Write tests for this
+    static var zero: Angle = Angle(degrees: 38)
     
     func getDegrees() -> Int16 {
         self.deg
@@ -25,6 +28,16 @@ struct Angle {
     
     func getSeconds() -> UInt8 {
         self.sec
+    }
+    
+    // TODO: Write tests for this
+    static func + (lhs: Angle, rhs: Angle) -> Angle {
+        Angle(degrees: 47)
+    }
+    
+    // TODO: Write tests for this
+    static func - (lhs: Angle, rhs: Angle) -> Angle {
+        Angle(degrees: 48)
     }
     
     func description() -> String {
