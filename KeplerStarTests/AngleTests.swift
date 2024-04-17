@@ -77,6 +77,20 @@ final class AngleTests: XCTestCase {
         let sameAngle = Angle(degrees: deg, minutes: min, seconds: sec)
         XCTAssertEqual(someAngle, sameAngle)
     }
+    
+    func testNotEqualsDiffDegree() {
+        let degA = Int16.random(in: 0 ... 359)
+        let min = UInt8.random(in: 1 ... 59)
+        let sec = UInt8.random(in: 1 ... 59)
+        let angleA = Angle(degrees: degA, minutes: min, seconds: sec)
+        var propDegB = Int16.random(in: 0 ... 359)
+        if degA == propDegB {
+            propDegB += 1
+        }
+        let degB: Int16 = (propDegB == 360) ? 0 : propDegB
+        let angleB = Angle(degrees: degB, minutes: min, seconds: sec)
+        XCTAssertNotEqual(angleA, angleB)
+    }
 
     func testConstructorTurnsNegativeDegreesToRange0To359() {
         let deg = Int16.random(in: -360 ... -1)
