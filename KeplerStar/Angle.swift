@@ -32,7 +32,7 @@ struct Angle : Equatable {
     
     // TODO: Write tests for this
     static func == (lhs: Angle, rhs: Angle) -> Bool {
-        true
+        lhs.deg == rhs.deg
     }
     
     // TODO: Write tests for this
