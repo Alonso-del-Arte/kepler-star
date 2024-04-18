@@ -122,6 +122,12 @@ final class AngleTests: XCTestCase {
         let angleB = Angle(degrees: deg, minutes: min, seconds: secB)
         XCTAssertNotEqual(angleA, angleB)
     }
+    
+    func testZero() {
+        let expected = Angle(degrees: 0, minutes: 0, seconds: 0)
+        let actual = Angle.zero
+        XCTAssertEqual(expected, actual)
+    }
 
     func testConstructorTurnsNegativeDegreesToRange0To359() {
         let deg = Int16.random(in: -360 ... -1)
