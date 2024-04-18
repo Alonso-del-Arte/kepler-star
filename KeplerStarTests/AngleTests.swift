@@ -91,6 +91,27 @@ final class AngleTests: XCTestCase {
         let angleB = Angle(degrees: degB, minutes: min, seconds: sec)
         XCTAssertNotEqual(angleA, angleB)
     }
+    
+    private static func chooseDiffMinOrSec(_ n: UInt8) -> UInt8 {
+        var proposed = UInt8.random(in: 0 ... 59)
+        if proposed == 0 && n == 0 {
+            proposed = 59
+        }
+        if proposed == n {
+            proposed -= 1
+        }
+        return proposed
+    }
+    
+    func testNotEqualsDiffMin() {
+        let deg = Int16.random(in: 0 ... 359)
+        let minA = UInt8.random(in: 1 ... 59)
+        let sec = UInt8.random(in: 1 ... 59)
+        let angleA = Angle(degrees: deg, minutes: minA, seconds: sec)
+        let minB = AngleTests.chooseDiffMinOrSec(minA)
+        let angleB = Angle(degrees: deg, minutes: minB, seconds: sec)
+        XCTAssertNotEqual(angleA, angleB)
+    }
 
     func testConstructorTurnsNegativeDegreesToRange0To359() {
         let deg = Int16.random(in: -360 ... -1)
