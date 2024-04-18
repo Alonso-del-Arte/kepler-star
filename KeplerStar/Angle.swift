@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Angle : Equatable {
+struct Angle : AdditiveArithmetic {
 
     private let deg: Int16
     
