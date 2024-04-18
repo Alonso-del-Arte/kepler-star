@@ -71,8 +71,8 @@ final class AngleTests: XCTestCase {
     
     func testEquals() {
         let deg = Int16.random(in: 0 ... 359)
-        let min = UInt8.random(in: 1 ... 59)
-        let sec = UInt8.random(in: 1 ... 59)
+        let min = UInt8.random(in: 0 ... 59)
+        let sec = UInt8.random(in: 0 ... 59)
         let someAngle = Angle(degrees: deg, minutes: min, seconds: sec)
         let sameAngle = Angle(degrees: deg, minutes: min, seconds: sec)
         XCTAssertEqual(someAngle, sameAngle)
@@ -80,8 +80,8 @@ final class AngleTests: XCTestCase {
     
     func testNotEqualsDiffDegree() {
         let degA = Int16.random(in: 0 ... 359)
-        let min = UInt8.random(in: 1 ... 59)
-        let sec = UInt8.random(in: 1 ... 59)
+        let min = UInt8.random(in: 0 ... 59)
+        let sec = UInt8.random(in: 0 ... 59)
         let angleA = Angle(degrees: degA, minutes: min, seconds: sec)
         var propDegB = Int16.random(in: 0 ... 359)
         if degA == propDegB {
@@ -105,11 +105,21 @@ final class AngleTests: XCTestCase {
     
     func testNotEqualsDiffMin() {
         let deg = Int16.random(in: 0 ... 359)
-        let minA = UInt8.random(in: 1 ... 59)
-        let sec = UInt8.random(in: 1 ... 59)
+        let minA = UInt8.random(in: 0 ... 59)
+        let sec = UInt8.random(in: 0 ... 59)
         let angleA = Angle(degrees: deg, minutes: minA, seconds: sec)
         let minB = AngleTests.chooseDiffMinOrSec(minA)
         let angleB = Angle(degrees: deg, minutes: minB, seconds: sec)
+        XCTAssertNotEqual(angleA, angleB)
+    }
+    
+    func testNotEqualsDiffSec() {
+        let deg = Int16.random(in: 0 ... 359)
+        let min = UInt8.random(in: 0 ... 59)
+        let secA = UInt8.random(in: 0 ... 59)
+        let angleA = Angle(degrees: deg, minutes: min, seconds: secA)
+        let secB = AngleTests.chooseDiffMinOrSec(secA)
+        let angleB = Angle(degrees: deg, minutes: min, seconds: secB)
         XCTAssertNotEqual(angleA, angleB)
     }
 
