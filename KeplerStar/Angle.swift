@@ -15,8 +15,7 @@ struct Angle : AdditiveArithmetic {
     
     private let sec: UInt8
     
-    // TODO: Write tests for this
-    static var zero: Angle = Angle(degrees: 38)
+    static var zero: Angle = Angle(degrees: 0)
     
     func getDegrees() -> Int16 {
         self.deg
