@@ -3,6 +3,10 @@
 * Aleister Crowley, *The Complete Astrological Writings*, edited by John Symonds 
 and Kenneth Grant. Dallas, Texas: Duckworth (1979). Second impression by Gerald 
 Duckworth &amp; Co. Limited in London (1988).
+* C. Aq. Libra, *Astrology: Its Technique and Ethics*. La Vergne, Tennessee: 
+Kessinger (2010).
+* Joanna Watters, *Be Your Own Astrologer: Unlock the Secrets of the Signs and 
+Planets*. London, New York: Cico Books (2015).
 
 ## Religious books
 
