@@ -156,7 +156,24 @@ final class AngleTests: XCTestCase {
         let secB = UInt8.random(in: 1 ..< secADiffFrom60) + secADiffFrom60
         let addendB = Angle(degrees: degB, minutes: minB, seconds: secB)
         let expected = Angle(degrees: degA + degB, minutes: minA + minB + 1,
-                             seconds: (secA + secB) - 60)
+                             seconds: secA + secB - 60)
+        let actual = addendA + addendB
+        let message = "\(addendA.description()) + \(addendB.description())"
+        XCTAssertEqual(expected, actual, message)
+    }
+
+    func testPlusExtraMinutesOverflowToDegrees() {
+        let degA = Int16.random(in: 0 ... 180)
+        let minA = UInt8.random(in: 30 ... 57)
+        let secA = UInt8.random(in: 1 ... 30)
+        let addendA = Angle(degrees: degA, minutes: minA, seconds: secA)
+        let degB = Int16.random(in: 0 ... 179)
+        let minADiffFrom60: UInt8 = 60 - minA
+        let minB = UInt8.random(in: 1 ..< minADiffFrom60) + minADiffFrom60
+        let secB = UInt8.random(in: 1 ... 28)
+        let addendB = Angle(degrees: degB, minutes: minB, seconds: secB)
+        let expected = Angle(degrees: degA + degB + 1, minutes: minA + minB - 60,
+                             seconds: secA + secB)
         let actual = addendA + addendB
         let message = "\(addendA.description()) + \(addendB.description())"
         XCTAssertEqual(expected, actual, message)
