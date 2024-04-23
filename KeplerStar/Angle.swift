@@ -31,8 +31,13 @@ struct Angle : AdditiveArithmetic {
     
     // TODO: Write tests for this
     static func + (lhs: Angle, rhs: Angle) -> Angle {
-        Angle(degrees: lhs.deg + rhs.deg, minutes: lhs.min + rhs.min,
-              seconds: lhs.sec + rhs.sec)
+        var min = lhs.min + rhs.min
+        var sec = lhs.sec + rhs.sec
+        if (sec > 59) {
+            min += 1
+            sec -= 60
+        }
+        return Angle(degrees: lhs.deg + rhs.deg, minutes: min, seconds: sec)
     }
     
     // TODO: Write tests for this
