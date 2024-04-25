@@ -24,9 +24,21 @@ There are twelve constellations of the Zodiac.
 * &#x2652; &mdash; Aquarius
 * &#x2653; &mdash; Pisces
 
-From Earth's perspective, the Sun, the Moon and the other planets of the solar 
-system move through the signs of the Zodiac, usually forward, occasionally in 
-retrograde.
+Astrology is reckoned from Earth's perspective. The Sun takes roughly a month to 
+go through one sign of the Zodiac. The Moon takes roughly a month to go through 
+all twelve signs.
+
+So the Sun goes through all twelve signs in exactly a year, always moving 
+forward. Mercury takes roughly a year to go through all twelve signs, spending 
+about three weeks in each but sometimes going retrograde (meaning backwards). 
+
+Retrograde motion is of course only an illusion caused by our perspective here 
+on Earth. Mercury and the other planets all go around the Sun in the same 
+direction always.
 
 Astrologers believe that the positions of the Sun, the Moon and the planets at 
-the time of a person's birth determine that person's personality.
+the time of a person's birth determine that person's personality. Furthermore, 
+the current positions of the planets in relation to a person's natal chart are 
+believed to affect that person's experiences currently.
+
+Astrology is frequently met with automatic, thoughtless skepticism.
