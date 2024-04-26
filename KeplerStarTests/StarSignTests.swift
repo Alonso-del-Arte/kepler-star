@@ -30,6 +30,22 @@ final class StarSignTests: XCTestCase {
         }
     }
     
+    func testMinimumDegree() {
+        let signs: [StarSign] = StarSign.allCases
+        let interval = Angle(degrees: 30)
+        var expecteds = [Angle(degrees: 0)]
+        for i in 1 ... 11 {
+            expecteds.append(expecteds[i - 1] + interval)
+        }
+        for j in 0 ... 11 {
+            let sign = signs[j]
+            let expected = expecteds[j]
+            let actual = sign.minimumDegree()
+            let msg = "Start for \(sign.description()) should be \(expected)"
+            XCTAssertEqual(expected, actual, msg)
+        }
+    }
+    
     func testDescription() {
         for sign in StarSign.allCases {
             let expected = "\(sign)".capitalized
