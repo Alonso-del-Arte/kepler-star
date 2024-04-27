@@ -35,21 +35,20 @@ enum StarSign : Character, CaseIterable {
     case pisces = "\u{2653}"
     
     func minimumDegree() -> Angle {
-        Angle(degrees: 35)
-//        switch self {
-//        case .aries: Angle(degrees: 0)
-//        case .taurus: Angle(degrees: 30)
-//        case .gemini: Angle(degrees: 60)
-//        case .cancer: Angle(degrees: 90)
-//        case .leo: Angle(degrees: 120)
-//        case .virgo: Angle(degrees: 150)
-//        case .libra: Angle(degrees: 180)
-//        case .scorpio: Angle(degrees: 210)
-//        case .saggitarius: Angle(degrees: 240)
-//        case .capricorn: Angle(degrees: 270)
-//        case .aquarius: Angle(degrees: 300)
-//        case .pisces: Angle(degrees: 330)
-//        }
+        switch self {
+        case .aries: Angle(degrees: 0)
+        case .taurus: Angle(degrees: 30)
+        case .gemini: Angle(degrees: 60)
+        case .cancer: Angle(degrees: 90)
+        case .leo: Angle(degrees: 120)
+        case .virgo: Angle(degrees: 150)
+        case .libra: Angle(degrees: 180)
+        case .scorpio: Angle(degrees: 210)
+        case .saggitarius: Angle(degrees: 240)
+        case .capricorn: Angle(degrees: 270)
+        case .aquarius: Angle(degrees: 300)
+        case .pisces: Angle(degrees: 330)
+        }
     }
     
     func description() -> String {
