@@ -30,6 +30,14 @@ final class StarSignTests: XCTestCase {
         }
     }
     
+    func testDescription() {
+        for sign in StarSign.allCases {
+            let expected = "\(sign)".capitalized
+            let actual = sign.description()
+            XCTAssertEqual(expected, actual)
+        }
+    }
+    
     func testMinimumDegree() {
         let signs: [StarSign] = StarSign.allCases
         let interval: Int16 = 30
@@ -42,12 +50,22 @@ final class StarSignTests: XCTestCase {
         }
     }
     
-    func testDescription() {
-        for sign in StarSign.allCases {
-            let expected = "\(sign)".capitalized
-            let actual = sign.description()
-            XCTAssertEqual(expected, actual)
+    func testDetermineSign() {
+        let signs: [StarSign] = StarSign.allCases
+        let deg: Int16 = Int16.random(in: 0 ... 29)
+        let min: UInt8 = UInt8.random(in: 0 ... 59)
+        let sec: UInt8 = UInt8.random(in: 0 ... 59)
+        let withinSignAngle = Angle(degrees: deg, minutes: min, seconds: sec)
+        let interval = Angle(degrees: 30)
+        var currAngle = withinSignAngle
+        for i in 0 ... 11 {
+            let expected = signs[i]
+            let actual = StarSign.determineSign(currAngle)
+            let msg = "\(currAngle.description()) in \(expected.description())"
+            XCTAssertEqual(expected, actual, msg)
+            currAngle += interval
         }
+        
     }
     
 }
