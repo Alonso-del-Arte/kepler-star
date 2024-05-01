@@ -178,6 +178,22 @@ final class AngleTests: XCTestCase {
         let message = "\(addendA.description()) + \(addendB.description())"
         XCTAssertEqual(expected, actual, message)
     }
+    
+    func testMinus() {
+        let degA = Int16.random(in: 180 ... 359)
+        let minA = UInt8.random(in: 30 ... 59)
+        let secA = UInt8.random(in: 30 ... 59)
+        let minuend = Angle(degrees: degA, minutes: minA, seconds: secA)
+        let degB = Int16.random(in: 0 ... 179)
+        let minB = UInt8.random(in: 0 ... 29)
+        let secB = UInt8.random(in: 0 ... 29)
+        let subtrahend = Angle(degrees: degB, minutes: minB, seconds: secB)
+        let expected = Angle(degrees: degA - degB, minutes: minA - minB,
+                             seconds: secA - secB)
+        let actual = minuend - subtrahend
+        let message = "\(minuend.description()) - \(subtrahend.description())"
+        XCTAssertEqual(expected, actual, message)
+    }
 
     func testConstructorTurnsNegativeDegreesToRange0To359() {
         let deg = Int16.random(in: -360 ... -1)
