@@ -34,6 +34,11 @@ enum StarSign : Character, CaseIterable {
     
     case pisces = "\u{2653}"
     
+    // TODO: Write tests for this
+    static func determineSign(_ angle: Angle) -> StarSign {
+        .aquarius
+    }
+    
     func minimumDegree() -> Angle {
         switch self {
         case .aries: Angle(degrees: 0)
