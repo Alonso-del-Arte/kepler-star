@@ -29,6 +29,14 @@ struct Angle : AdditiveArithmetic {
         self.sec
     }
     
+    /// Adds two angles.
+    /// - Parameters:
+    ///   - lhs: One of the angles to add. For example, 20 degrees, 41 minutes,
+    ///   22 seconds.
+    ///   - rhs: One of the angles to add. For example, 95 degrees, 28 minutes,
+    ///   20 seconds.
+    /// - Returns: The sum of the two angles. In the example, this would be 116
+    /// degrees, 9 minutes, 42 seconds.
     static func + (lhs: Angle, rhs: Angle) -> Angle {
         var deg = lhs.deg + rhs.deg
         var min = lhs.min + rhs.min
@@ -46,7 +54,8 @@ struct Angle : AdditiveArithmetic {
     
     // TODO: Write tests for this
     static func - (lhs: Angle, rhs: Angle) -> Angle {
-        Angle(degrees: 48)
+        Angle(degrees: lhs.deg - rhs.deg, minutes: lhs.min - rhs.min,
+              seconds: lhs.sec - rhs.sec)
     }
     
     func description() -> String {
