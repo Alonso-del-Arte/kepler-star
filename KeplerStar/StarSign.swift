@@ -34,9 +34,9 @@ enum StarSign : Character, CaseIterable {
     
     case pisces = "\u{2653}"
     
-    // TODO: Write tests for this
     static func determineSign(_ angle: Angle) -> StarSign {
-        .aquarius
+        let index = angle.getDegrees() / 30
+        return StarSign.allCases[Int(index)]
     }
     
     func minimumDegree() -> Angle {
