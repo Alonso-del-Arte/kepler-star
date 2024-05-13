@@ -36,6 +36,15 @@ astrology.
 
 ## N
 
+* **Natal chart** &mdash; A chart showing the positions of the Sun, the Moon and 
+the planets at the time of a person's birth.
+* **Noon chart** &mdash; A natal chart calculated with the assumption that 
+someone was born exactly at noon local time in the place of their birth. 
+(Watters, 2015, p. 7) The Moon is likely to be wrong, depending on how many 
+hours there are between noon and the actual time of birth, but this assumption 
+is unlikely to make a difference for the Sun or any of the planets. Astrologers 
+like Joanna Watters believe noon charts can still be very valuable.
+
 ## O
 
 * **Opposition** &mdash; An aspect of 180 degrees. From Earth's perspective, the 

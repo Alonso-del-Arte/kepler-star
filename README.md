@@ -41,4 +41,17 @@ the time of a person's birth determine that person's personality. Furthermore,
 the current positions of the planets in relation to a person's natal chart are 
 believed to affect that person's experiences currently.
 
-Astrology is frequently met with automatic, thoughtless skepticism.
+> In the past, the craft of calculating the horoscope \[natal chart\] required 
+> the skills of a trained astrologer, but modern-day technology has changed this
+> forever. Now the mathematical exercise of erecting a horoscope based on the 
+> exact data of an individual's date, place, and time of birth can be done 
+> online in a matter of minutes. (Watters, 2015, p. 6)
+
+And yet most people, even those who actually believe in astrology, focus 
+entirely on the Sun signs.
+
+Astrology is frequently met with automatic, thoughtless skepticism. It's one 
+thing to make logical arguments based on the claims posited by astrology. But 
+for one to simply denigrate the whole practice while completely disregarding the 
+history shared by astrology and astronomy is to be hardly less ignorant than one 
+accuses astrology's believers of being.
