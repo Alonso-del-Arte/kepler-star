@@ -52,6 +52,16 @@ two planets oppose each other with Earth in the middle.
 
 ## P
 
+* **Planet** &mdash; A stellar body other than Earth that obviously moves 
+relative to Earth, unlike Earth, the position of which was considered to be 
+fixed, and unlike the stars that make up the constellations of the Zodiac, which 
+were thought to never move. Pluto is considered a planet under this definition, 
+but so are the Sun and the Moon. Note that this is the astrological definition, 
+not the astronomical definition.
+* **Planetoid** &mdash; A planet-like stellar body that does not quite meet 
+astronomers' criteria for a planet under the astronomical rather than 
+astrological definition.
+
 ## Q
 
 ## R
