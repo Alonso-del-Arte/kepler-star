@@ -9,6 +9,9 @@ astrological chart, or between two charts of one planet.
 
 ## C
 
+* **Conjunction** &mdash; When two planets are aligned exactly, or almost 
+aligned within a variance of two or three degrees.
+
 ## D
 
 ## E
@@ -31,6 +34,8 @@ astrology.
 ## K
 
 ## L
+
+* **Luminary** &mdash; Either the Sun or the Moon.
 
 ## M
 
