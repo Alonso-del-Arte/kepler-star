@@ -25,11 +25,11 @@
 * &#x2643; &mdash; Jupiter
 * &#x2644; &mdash; Saturn
 * &#x2645; &mdash; Uranus
-** &#x26e2; &mdash; Alternate symbol
+    * &#x26e2; &mdash; Alternate symbol
 * &#x2646; &mdash; Neptune
-** &#x2bc9; &mdash; Alternate symbol
+    * &#x2bc9; &mdash; Alternate symbol
 * &#x2647; &mdash; Pluto
-** &#x2bd3; &mdash; Alternate symbol
+    * &#x2bd3; &mdash; Alternate symbol
 
 ### Phases of the Moon
 
