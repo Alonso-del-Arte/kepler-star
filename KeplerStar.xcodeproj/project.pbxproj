@@ -97,8 +97,7 @@
 		6171E0CD2BAB732C005121B0 = {
 			isa = PBXGroup;
 			children = (
-				6176D9972BB6016F00EC7F4F /* Bibliography.md */,
-				611534EB2BAE5EE6001BDD23 /* Terminology.md */,
+				6186F8542BF69F27004C1615 /* Doc */,
 				6171E1082BAB8036005121B0 /* CONTRIBUTING.md */,
 				6171E1072BAB7E2B005121B0 /* README.md */,
 				6171E1052BAB73AB005121B0 /* .gitignore */,
@@ -160,6 +159,15 @@
 				6171E0F62BAB732D005121B0 /* KeplerStarUITestsLaunchTests.swift */,
 			);
 			path = KeplerStarUITests;
+			sourceTree = "<group>";
+		};
+		6186F8542BF69F27004C1615 /* Doc */ = {
+			isa = PBXGroup;
+			children = (
+				611534EB2BAE5EE6001BDD23 /* Terminology.md */,
+				6176D9972BB6016F00EC7F4F /* Bibliography.md */,
+			);
+			path = Doc;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
