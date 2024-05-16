@@ -67,6 +67,7 @@
 		6171E1122BACCB00005121B0 /* PlanetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetTests.swift; sourceTree = "<group>"; };
 		6171E1152BACEB03005121B0 /* StarSignTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarSignTests.swift; sourceTree = "<group>"; };
 		6176D9972BB6016F00EC7F4F /* Bibliography.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Bibliography.md; sourceTree = "<group>"; };
+		6186F8552BF6A140004C1615 /* Symbols.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Symbols.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +167,7 @@
 			children = (
 				611534EB2BAE5EE6001BDD23 /* Terminology.md */,
 				6176D9972BB6016F00EC7F4F /* Bibliography.md */,
+				6186F8552BF6A140004C1615 /* Symbols.md */,
 			);
 			path = Doc;
 			sourceTree = "<group>";
