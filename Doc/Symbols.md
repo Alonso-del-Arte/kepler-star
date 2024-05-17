@@ -40,4 +40,9 @@
 
 ## Aspects
 
+* &#x260a; &mdash; Ascending node
+* &#x260b; &mdash; Descending node
+* &#x260c; &mdash; Conjunction
+* &#x260d; &mdash; Opposition
+
 (FINISH WRITING)
