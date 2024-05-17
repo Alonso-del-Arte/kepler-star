@@ -36,6 +36,21 @@ Retrograde motion is of course only an illusion caused by our perspective here
 on Earth. Mercury and the other planets all go around the Sun in the same 
 direction always.
 
+But of course the planets farther away from the Sun take longer to visit each of 
+the twelve signs. It takes Neptune roughly 165 Earth years to go around the Sun, 
+and Pluto, despite its orbit crossing Neptune's, takes almost two and a half 
+centuries to go around the Sun.
+
+When I started this project, Pluto was in Aquarius. As I write these words, 
+Pluto is retrograde in Aquarius. And even if I take a few years with this 
+project, Pluto will quite likely still be in Aquarius.
+
+Thus Neptune and Pluto remain constant for a whole generation, and are therefore 
+thought to influence an entire generation. By the time a given person turns 
+30-years-old, the planetary positions for his or her birthdays are guaranteed to 
+not match those of when he or she was born, certainly differing in the outer 
+planets even when matching the Moon and the inner planets.
+
 Astrologers believe that the positions of the Sun, the Moon and the planets at 
 the time of a person's birth determine that person's personality. Furthermore, 
 the current positions of the planets in relation to a person's natal chart are 
@@ -48,7 +63,10 @@ believed to affect that person's experiences currently.
 > online in a matter of minutes. (Watters, 2015, p. 6)
 
 And yet most people, even those who actually believe in astrology, focus 
-entirely on the Sun signs.
+entirely on the Sun signs. Horoscopes in the newspapers seldom mention the 
+current positions of the planets, and one is left to wonder if the author of the 
+horoscope was actually trying to make predictions based on the positions of the 
+planets or was simply coming up with predictions out of thin air.
 
 Astrology is frequently met with automatic, thoughtless skepticism. It's one 
 thing to make logical arguments based on the claims posited by astrology. But 
