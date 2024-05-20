@@ -17,4 +17,9 @@ enum Element {
     
     case water
     
+    // TODO: Write tests for this
+    func signs() -> [StarSign] {
+        [.aquarius]
+    }
+    
 }
