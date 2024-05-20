@@ -19,7 +19,7 @@ enum Element {
     
     // TODO: Write tests for this
     func signs() -> [StarSign] {
-        [.aquarius]
+        [.aries, .leo, .saggitarius]
     }
     
 }
