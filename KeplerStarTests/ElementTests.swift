@@ -15,4 +15,10 @@ final class ElementTests: XCTestCase {
         XCTAssertEqual(expected, actual)
     }
     
+    func testEarthSigns() {
+        let expected: [StarSign] = [.taurus, .virgo, .capricorn]
+        let actual = Element.earth.signs()
+        XCTAssertEqual(expected, actual)
+    }
+    
 }
