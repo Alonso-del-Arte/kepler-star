@@ -22,7 +22,7 @@ final class ElementTests: XCTestCase {
     }
     
     func testAirSigns() {
-        let expected: [StarSign] = [.taurus, .virgo, .capricorn]
+        let expected: [StarSign] = [.gemini, .libra, .aquarius]
         let actual = Element.air.signs()
         XCTAssertEqual(expected, actual)
     }
