@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		61233FF22BFBEC1700ADE6EA /* Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61233FF12BFBEC1700ADE6EA /* Element.swift */; };
 		61233FF32BFBEC1700ADE6EA /* Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61233FF12BFBEC1700ADE6EA /* Element.swift */; };
+		61233FF52BFBED4700ADE6EA /* ElementTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61233FF42BFBED4700ADE6EA /* ElementTests.swift */; };
 		614ADDCA2BC0822D00F1A127 /* Angle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614ADDC92BC0822D00F1A127 /* Angle.swift */; };
 		614ADDCC2BC0828E00F1A127 /* AngleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614ADDCB2BC0828E00F1A127 /* AngleTests.swift */; };
 		614ADDCE2BC0A6BE00F1A127 /* Angle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614ADDC92BC0822D00F1A127 /* Angle.swift */; };
@@ -49,6 +50,7 @@
 /* Begin PBXFileReference section */
 		611534EB2BAE5EE6001BDD23 /* Terminology.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Terminology.md; sourceTree = "<group>"; };
 		61233FF12BFBEC1700ADE6EA /* Element.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Element.swift; sourceTree = "<group>"; };
+		61233FF42BFBED4700ADE6EA /* ElementTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElementTests.swift; sourceTree = "<group>"; };
 		614ADDC92BC0822D00F1A127 /* Angle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Angle.swift; sourceTree = "<group>"; };
 		614ADDCB2BC0828E00F1A127 /* AngleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngleTests.swift; sourceTree = "<group>"; };
 		6171E0D62BAB732C005121B0 /* KeplerStar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeplerStar.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -153,6 +155,7 @@
 				6171E1122BACCB00005121B0 /* PlanetTests.swift */,
 				6171E1152BACEB03005121B0 /* StarSignTests.swift */,
 				614ADDCB2BC0828E00F1A127 /* AngleTests.swift */,
+				61233FF42BFBED4700ADE6EA /* ElementTests.swift */,
 			);
 			path = KeplerStarTests;
 			sourceTree = "<group>";
@@ -327,6 +330,7 @@
 				614ADDCE2BC0A6BE00F1A127 /* Angle.swift in Sources */,
 				6171E0EB2BAB732D005121B0 /* KeplerStarTests.swift in Sources */,
 				6171E1162BACEB03005121B0 /* StarSignTests.swift in Sources */,
+				61233FF52BFBED4700ADE6EA /* ElementTests.swift in Sources */,
 				6171E1142BACCB00005121B0 /* PlanetTests.swift in Sources */,
 				614ADDCC2BC0828E00F1A127 /* AngleTests.swift in Sources */,
 			);
