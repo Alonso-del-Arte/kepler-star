@@ -19,10 +19,12 @@ enum Element {
     
     // TODO: Write tests for this
     func signs() -> [StarSign] {
-        if (self == .earth) {
-            return [.taurus, .virgo, .capricorn]
+        switch self {
+        case .fire: [.aries, .leo, .saggitarius]
+        case .earth: [.taurus, .virgo, .capricorn]
+        case .air: [.gemini, .libra, .aquarius]
+        case .water: [.aquarius]
         }
-        return [.aries, .leo, .saggitarius]
     }
     
 }
