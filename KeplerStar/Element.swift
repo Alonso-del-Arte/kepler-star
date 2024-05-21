@@ -23,7 +23,7 @@ enum Element {
         case .fire: [.aries, .leo, .saggitarius]
         case .earth: [.taurus, .virgo, .capricorn]
         case .air: [.gemini, .libra, .aquarius]
-        case .water: [.aquarius]
+        case .water: [.cancer, .scorpio, .pisces]
         }
     }
     
