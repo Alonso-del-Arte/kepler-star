@@ -27,4 +27,10 @@ final class ElementTests: XCTestCase {
         XCTAssertEqual(expected, actual)
     }
     
+    func testWaterSigns() {
+        let expected: [StarSign] = [.cancer, .scorpio, .pisces]
+        let actual = Element.water.signs()
+        XCTAssertEqual(expected, actual)
+    }
+    
 }
