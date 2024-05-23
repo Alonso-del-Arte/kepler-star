@@ -59,5 +59,10 @@ enum StarSign : Character, CaseIterable {
     func description() -> String {
         "\(self)".capitalized
     }
+    
+    // TODO: Write tests for this
+    func element() -> Element {
+        .air
+    }
         
 }
