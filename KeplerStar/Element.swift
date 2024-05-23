@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum Element {
+enum Element: CaseIterable {
     
     case fire
     
