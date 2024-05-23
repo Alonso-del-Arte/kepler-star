@@ -65,7 +65,15 @@ final class StarSignTests: XCTestCase {
             XCTAssertEqual(expected, actual, msg)
             currAngle += interval
         }
-        
+    }
+    
+    func testElement() {
+        for expected in Element.allCases {
+            for sign in expected.signs() {
+                let actual = sign.element()
+                XCTAssertEqual(expected, actual)
+            }
+        }
     }
     
 }
