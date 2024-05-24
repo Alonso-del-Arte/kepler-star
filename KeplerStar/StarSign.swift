@@ -60,9 +60,13 @@ enum StarSign : Character, CaseIterable {
         "\(self)".capitalized
     }
     
-    // TODO: Write tests for this
     func element() -> Element {
-        .air
+        switch self {
+        case .aries, .leo, .saggitarius: .fire
+        case .taurus, .virgo, .capricorn: .earth
+        case .gemini, .libra, .aquarius: .air
+        case .cancer, .scorpio, .pisces: .water
+        }
     }
         
 }
