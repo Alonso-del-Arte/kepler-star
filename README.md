@@ -5,7 +5,7 @@ astronomer Johannes Kepler did, or would if he had had the kind of computational
 power that we take for granted these days.
 
 I am aware of the supernova SN1604 and the Kepler K2 telescope. This project has 
-nothing to do with either of those.
+very little to do with either of those.
 
 ## The basics of astrology
 
@@ -67,6 +67,19 @@ entirely on the Sun signs. Horoscopes in the newspapers seldom mention the
 current positions of the planets, and one is left to wonder if the author of the 
 horoscope was actually trying to make predictions based on the positions of the 
 planets or was simply coming up with predictions out of thin air.
+
+Each sign of the zodiac is associated with one of the four elements which 
+ancient people believed all things were made of in varying proportions: fire, 
+earth, air and water. The way these assignments from signs to elements were made 
+seems to me to be somewhat arbitrary:
+
+* **Fire**: Aries, Leo, Saggitarius
+* **Earth**: Taurus, Virgo, Capricorn
+* **Air**: Gemini, Libra, Aquarius
+* **Water**: Cancer, Scorpio, Pisces (Watters, p. 48)
+
+Of course the stars that make up the constellations, such as the ones of the 
+Zodiac, are actually made up mostly of hydrogen and helium.
 
 Astrology is frequently met with automatic, thoughtless skepticism. It's one 
 thing to make logical arguments based on the claims posited by astrology. But 
