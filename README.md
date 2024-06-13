@@ -62,6 +62,10 @@ believed to affect that person's experiences currently.
 > exact data of an individual's date, place, and time of birth can be done 
 > online in a matter of minutes. (Watters, 2015, p. 6)
 
+Many people also believe that two persons' natal charts can be used to determine 
+their compatibility as romantic partners. This gives rise to the term 
+"star-crossed lovers."
+
 And yet most people, even those who actually believe in astrology, focus 
 entirely on the Sun signs. Horoscopes in the newspapers seldom mention the 
 current positions of the planets, and one is left to wonder if the author of the 
