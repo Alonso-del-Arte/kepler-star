@@ -1,5 +1,8 @@
 This project *might* be open to Hacktoberfest 2024.
 
+If I do open to Hacktoberfest, I will not consider pull requests made after 
+October 24 unless it's from someone I know personally.
+
 # Guidelines for Hacktoberfest 2024 contributors
 
 ## General
@@ -35,7 +38,7 @@ believe those stories as actual history.
 appropriate.
 * Prefer small commits, and group commits into pull requests.
 * Write meaningful commit messages. This is easier with smaller commits.
-* Never delete tests, unless you have very good and easy to explain reason for 
+* Never delete tests, unless you have a very good and easy to explain reason for 
 doing so (e.g., the class under test is deprecated and marked for removal). 
 Deleting tests without explanation will be regarded as not helpful.
 * You may refactor to comply with Swift naming conventions, but be kind with 
