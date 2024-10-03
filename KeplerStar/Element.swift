@@ -17,7 +17,6 @@ enum Element: CaseIterable {
     
     case water
     
-    // TODO: Write tests for this
     func signs() -> [StarSign] {
         switch self {
         case .fire: [.aries, .leo, .saggitarius]
