@@ -1,7 +1,7 @@
-This project *might* be open to Hacktoberfest 2024.
+This project is now open to Hacktoberfest 2024.
 
-If I do open to Hacktoberfest, I will not consider pull requests made after 
-October 24 unless it's from someone I know personally.
+I will not consider pull requests made after October 24 unless it's from someone 
+I know personally.
 
 # Guidelines for Hacktoberfest 2024 contributors
 
