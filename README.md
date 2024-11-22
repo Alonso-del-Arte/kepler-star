@@ -7,6 +7,11 @@ power that we take for granted these days.
 I am aware of the supernova SN1604 and the Kepler K2 telescope. This project has 
 very little to do with either of those.
 
+I am also aware of some existing astrology apps, like Co-Star. The unique value 
+proposition of Kepler Star will be that it will present its predictions as being 
+directly based on mathematical calculations of the planets' positions and the 
+supposed meanings of the planets and the signs of the Zodiac.
+
 ## The basics of astrology
 
 There are twelve constellations of the Zodiac.
