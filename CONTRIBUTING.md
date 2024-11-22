@@ -1,9 +1,6 @@
-This project is now open to Hacktoberfest 2024.
+This project might be open to Hacktoberfest 2025.
 
-I will not consider pull requests made after October 24 unless it's from someone 
-I know personally.
-
-# Guidelines for Hacktoberfest 2024 contributors
+# Guidelines for Hacktoberfest 2025 contributors
 
 ## General
 
@@ -33,7 +30,8 @@ believe those stories as actual history.
 
 ## Technical
 
-* You have to have Xcode.
+* You have to have Xcode, though it's okay to occasionally use Vim to edit files
+that don't need to be recompiled.
 * Make your own branch, name it after yourself, or after a feature if 
 appropriate.
 * Prefer small commits, and group commits into pull requests.
