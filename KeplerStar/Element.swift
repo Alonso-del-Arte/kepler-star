@@ -19,7 +19,7 @@ enum Element: CaseIterable {
     
     // TODO: Write tests for this
     func description() -> String {
-        "SORRY, NOT IMPLEMENTEED YET"
+        "SORRY, NOT IMPLEMENTED YET"
     }
     
     func signs() -> [StarSign] {
