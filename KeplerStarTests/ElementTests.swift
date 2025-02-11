@@ -9,6 +9,14 @@ import XCTest
 
 final class ElementTests: XCTestCase {
     
+    func testDescription() {
+        for element in Element.allCases {
+            let expected = "\(element)".capitalized
+            let actual = element.description()
+            XCTAssertEqual(expected, actual)
+        }
+    }
+    
     func testFireSigns() {
         let expected: [StarSign] = [.aries, .leo, .saggitarius]
         let actual = Element.fire.signs()
