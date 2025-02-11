@@ -17,9 +17,8 @@ enum Element: CaseIterable {
     
     case water
     
-    // TODO: Write tests for this
     func description() -> String {
-        "SORRY, NOT IMPLEMENTED YET"
+        "\(self)".capitalized
     }
     
     func signs() -> [StarSign] {
