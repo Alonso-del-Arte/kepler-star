@@ -43,8 +43,9 @@ direction always.
 
 But of course the planets farther away from the Sun take longer to visit each of 
 the twelve signs. It takes Neptune roughly 165 Earth years to go around the Sun, 
-and Pluto, despite its orbit crossing Neptune's, takes almost two and a half 
-centuries to go around the Sun.
+and Pluto, despite its orbit seemingly crossing Neptune's, takes almost two and 
+a half centuries to go around the Sun (astronomers reassure us Neptune and Pluto 
+will probably never collide).
 
 When I started this project, Pluto was in Aquarius. As I write these words, 
 Pluto is retrograde in Aquarius. And even if I take a few years with this 
